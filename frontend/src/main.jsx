@@ -8,7 +8,7 @@ Upload, UserRound, Wallet, X, Zap
 } from "lucide-react";
 import "./styles.css";
 
-const DEPOSIT_ADDRESS = "USDT-ADDRESS-TRC20";
+const DEPOSIT_ADDRESS = "TMzfFr9MKSiXDd37YnGEogAN97qVxsbSC9";
 const ADMIN_USER = "admin";
 const ADMIN_PASS = "buxvo123";
 
@@ -642,7 +642,7 @@ function DepositPanel({ onSubmit }) {
     <div className="section-head"><div><div className="eyebrow">ACCOUNT / Deposit</div><h2>Fund your balance</h2><p>Add funds securely to your trading account and get ready to explore the market.</p></div></div>
     <div className="deposit-layout">
       <div className="deposit-card">
-        <div className="qr-placeholder"><div className="qr-grid">{Array.from({length: 64}, (_, i) => <i key={i} className={(i*7+i%5)%3===0 ? "on" : ""}></i>)}</div><span>QR CODE</span></div>
+        <img src={`https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${DEPOSIT_ADDRESS}`} alt="USDT TRC20 QR Code" className="w-full max-w-[200px] mx-auto rounded-lg"/>
         <div className="chain-badge">USDT · TRC20</div>
         <div className="address-box"><span>Deposit address</span><strong>{DEPOSIT_ADDRESS}</strong><button onClick={() => navigator.clipboard?.writeText(DEPOSIT_ADDRESS)}><Copy size={15}/></button></div>
       </div>
