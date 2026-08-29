@@ -12,7 +12,7 @@ const DEPOSIT_ADDRESS = "USDT-ADDRESS-TRC20";
 const ADMIN_USER = "admin";
 const ADMIN_PASS = "buxvo123";
 
-const API = "http://192.168.100.24:4000/api";
+const API = import.meta.env.VITE_API_URL || "https://asset-primes2.onrender.com/api";
 const CHART_STORAGE_KEY = "ASSET PRIMES_chart_candles_v3";
 const CANDLE_DURATION_MS = 60000;
 
