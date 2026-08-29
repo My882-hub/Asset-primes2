@@ -530,15 +530,18 @@ if (
           <div className="brand-mark"><Zap size={18} /></div>
           <span>ASSET PRIMES</span>
         </div>
-        <div className="top-actions">
-          <div className="balance-chip"><Wallet size={16} /> ${auth?.role === "user" ? balance.toFixed(2) : "0.00"}</div>
-          {auth ? (
-            <button className="ghost-btn" onClick={logout}><LogOut size={17} /> Logout</button>
-          ) : (
-            <button className="primary-btn compact" onClick={() => { setAuthMode("login"); setView("auth"); }}><UserRound size={17} /> Login</button>
-          )}
-          <button className="mobile-menu" onClick={() => setMobileOpen(v => !v)}><Menu /></button>
-        </div>
+       <div className="top-actions">
+  <div className="balance-chip"><Wallet size={16} /> ${auth?.role === "user" ? balance.toFixed(2) : "0.00"}</div>
+  {auth ? (
+    <button className="ghost-btn !flex items-center gap-1" onClick={logout}>
+      <LogOut size={17} /> 
+      <span className="hidden sm:inline">Logout</span>
+    </button>
+  ) : (
+    <button className="primary-btn compact" onClick={() => { setAuthMode("login"); setView("auth"); }}><UserRound size={17} /> Login</button>
+  )}
+  <button className="mobile-menu" onClick={() => setMobileOpen(v => !v)}><Menu /></button>
+</div>
       </header>
 
       <div className={`layout ${mobileOpen ? "mobile-open" : ""}`}>
