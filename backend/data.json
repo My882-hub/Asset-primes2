@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "username": "rohan",
+      "passwordHash": "$2b$10$VOcQGv/EZyI49hEhvxdRz.2WCQWtO/Y0yV2aFTWMq7M8O/TTHaE1G",
+      "balance": 130,
+      "createdAt": 1787823630838
+    }
+  ],
+  "deposits": [
+    {
+      "id": "058e59f4-981c-4f8d-abad-25a8690384e4",
+      "username": "rohan",
+      "amount": 1000,
+      "proof": "2.png",
+      "status": "approved",
+      "createdAt": 1787826499505
+    },
+    {
+      "id": "14604ca6-c274-40d8-86f1-a07a0b93c10c",
+      "username": "rohan",
+      "amount": 444,
+      "proof": "WhatsApp Image 2026-06-17 at 3.01.45 PM.jpeg",
+      "status": "approved",
+      "createdAt": 1787825808527
+    },
+    {
+      "id": "54cf4a96-5b8f-4e98-919b-2de8b8812223",
+      "username": "rohan",
+      "amount": 23,
+      "proof": "WhatsApp Image 2026-06-17 at 3.01.45 PM.jpeg",
+      "status": "approved",
+      "createdAt": 1787825179260
+    },
+    {
+      "id": "1c543241-aebd-40ed-bd8c-633c3c0b9853",
+      "username": "rohan",
+      "amount": 10000,
+      "proof": "sadia 1.png",
+      "status": "approved",
+      "createdAt": 1787824249790
+    }
+  ],
+  "trades": [
+    {
+      "id": "7f635039-026e-4d29-bf76-e1b2cc4fa72a",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 79814.53,
+      "exit": 79843.96,
+      "pnl": 23.44,
+      "createdAt": 1787899362913
+    },
+    {
+      "id": "963180a6-710d-4f03-b710-d39c495ac47d",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 79856.3,
+      "exit": 79800,
+      "pnl": 560.2,
+      "createdAt": 1787899236881
+    },
+    {
+      "id": "dbddd088-f42d-4634-8932-fee746742c19",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 79821.34,
+      "exit": 79840,
+      "pnl": 44.52,
+      "createdAt": 1787898840810
+    },
+    {
+      "id": "63c14779-6418-4af0-96c8-b59dde7256ef",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 79844.78,
+      "exit": 79844.78,
+      "pnl": 50,
+      "createdAt": 1787898360827
+    },
+    {
+      "id": "20df5f4c-b22f-42ce-9bb6-ad3b2b47a8e7",
+      "username": "rohan",
+      "side": "sell",
+      "entry": 101.69330167448722,
+      "exit": 105.63385832886772,
+      "pnl": 50,
+      "createdAt": 1787826575781
+    },
+    {
+      "id": "bcbb409c-37c5-416d-9ac3-04142ccdeab6",
+      "username": "rohan",
+      "side": "sell",
+      "entry": 106.95669927273097,
+      "exit": 106.12534909849474,
+      "pnl": 50,
+      "createdAt": 1787825080479
+    },
+    {
+      "id": "012f561b-bc24-42aa-95c2-edcd6bb451fc",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 107.2273549514973,
+      "exit": 108.81857637161015,
+      "pnl": 50,
+      "createdAt": 1787824982532
+    },
+    {
+      "id": "c2e18a1d-7317-49e0-a457-dd14dbad85c6",
+      "username": "rohan",
+      "side": "sell",
+      "entry": 103.84206374081643,
+      "exit": 103.3477722168071,
+      "pnl": 0.9885830480186542,
+      "createdAt": 1787824768972
+    },
+    {
+      "id": "a9d9a1b8-7520-4c12-89d3-350400550d43",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 104.08575962989083,
+      "exit": 103.68784616224372,
+      "pnl": -0.7958269352942295,
+      "createdAt": 1787824478488
+    },
+    {
+      "id": "fb45ba01-ee4c-46c7-95ee-1cbb10f28bc5",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 102.13001356438785,
+      "exit": 103.50262979596663,
+      "pnl": 2.7452324631575493,
+      "createdAt": 1787824419483
+    },
+    {
+      "id": "34d3c3d2-2b61-484e-b598-9428c26bd82d",
+      "username": "rohan",
+      "side": "buy",
+      "entry": 101.56228007355719,
+      "exit": 102.5608927193722,
+      "pnl": 1.9972252916300306,
+      "createdAt": 1787824350007
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "214d8063-c3bc-4800-8bdc-ab32622b7abd",
+      "username": "rohan",
+      "amount": 3000,
+      "method": "USDT TRC20",
+      "account": "meralora",
+      "status": "approved",
+      "createdAt": 1787899260304,
+      "processedAt": 1787899285386
+    },
+    {
+      "id": "d4174994-c63f-4f96-9a14-cf672a45a92d",
+      "username": "rohan",
+      "amount": 60,
+      "method": "USDT TRC20",
+      "account": "6iyh",
+      "status": "approved",
+      "createdAt": 1787826463357,
+      "processedAt": 1787826472778
+    },
+    {
+      "id": "762a7e2a-4ccb-4329-9379-de08d20bede7",
+      "username": "rohan",
+      "amount": 3000.1,
+      "method": "USDT TRC20",
+      "account": "my",
+      "status": "approved",
+      "createdAt": 1787826430629,
+      "processedAt": 1787826437392
+    },
+    {
+      "id": "e37b1b4d-5c40-4ba8-a4e0-09dfb218be18",
+      "username": "rohan",
+      "amount": 555,
+      "method": "USDT TRC20",
+      "account": "adasd",
+      "status": "approved",
+      "createdAt": 1787826166490,
+      "processedAt": 1787826438713
+    },
+    {
+      "id": "518b040e-846a-4008-aae5-a563feace447",
+      "username": "rohan",
+      "amount": 5555,
+      "method": "USDT TRC20",
+      "account": "ASDFASFAF",
+      "status": "approved",
+      "createdAt": 1787826074788,
+      "processedAt": 1787826439771
+    },
+    {
+      "id": "e080d7d5-95b6-4441-aa1e-2693486423c1",
+      "username": "rohan",
+      "amount": 600,
+      "method": "USDT TRC20",
+      "account": "WEFWEFWEF",
+      "status": "approved",
+      "createdAt": 1787825869916,
+      "processedAt": 1787825882818
+    },
+    {
+      "id": "1cc38f22-7227-4182-bd9b-286044933ffc",
+      "username": "rohan",
+      "amount": 500,
+      "method": "USDT TRC20",
+      "account": "e",
+      "status": "approved",
+      "createdAt": 1787825400460,
+      "processedAt": 1787825416080
+    },
+    {
+      "id": "4c99ff48-5235-4214-8e65-4010ae29391f",
+      "username": "rohan",
+      "amount": 1000,
+      "method": "USDT TRC20",
+      "account": "asdas",
+      "status": "approved",
+      "createdAt": 1787825114816,
+      "processedAt": 1787825127417
+    },
+    {
+      "id": "be0f9e38-ffd0-4ab6-8564-3c31817f7e3e",
+      "username": "rohan",
+      "amount": 50,
+      "method": "USDT TRC20",
+      "account": "sdasdsad",
+      "status": "approved",
+      "createdAt": 1787825012317,
+      "processedAt": 1787825045511
+    }
+  ]
+}
