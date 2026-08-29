@@ -132,13 +132,6 @@ const CRYPTO_LIST = [
     symbol: "SOLUSDT",
     icon: "≋",
     color: "#9945ff"
-  },
-  {
-    id: "XRP",
-    name: "XRP",
-    symbol: "XRPUSDT",
-    icon: "✕",
-    color: "#ffffff"
   }
 ];
 
