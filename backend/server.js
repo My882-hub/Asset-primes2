@@ -5,10 +5,10 @@ import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
 
 const PORT = process.env.PORT || 4000;
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = process.env.JWT_SECRET || "buxvo-demo-secret-change-me";
 const ADMIN_USER = process.env.ADMIN_USER || "admin";
 const ADMIN_PASS = process.env.ADMIN_PASS || "buxvo123";
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://veoveo00066_db_user:pZgCtWngGArM6bNH@cluster0.abc.mongodb.net/asset_primes?retryWrites=true&w=majority";
 
 // MongoDB Database Connection
 mongoose.connect(MONGO_URI)
