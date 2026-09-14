@@ -8,7 +8,7 @@ Upload, UserRound, Wallet, X, Zap
 } from "lucide-react";
 import "./styles.css";
 
-const DEPOSIT_ADDRESS = "TMzfFr9MKSiXDd37YnGEogAN97qVxsbSC9";
+const DEPOSIT_ADDRESS = "THvLuWYjVBv12z8b5E1vbM4FMX45vg6igj";
 const ADMIN_USER = "admin";
 const ADMIN_PASS = "buxvo123";
 
